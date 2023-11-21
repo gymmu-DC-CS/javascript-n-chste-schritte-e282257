@@ -12,6 +12,10 @@ export function aufgabe01(args) {
   return result.join("")
   }
 
-  
-
-
+ 
+    
+    export function aufgabe02(args) {
+      const input = args;
+      return input.toUpperCase();
+    }
+   
