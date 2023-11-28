@@ -18,4 +18,22 @@ export function aufgabe01(args) {
       const input = args;
       return input.toUpperCase();
     }
-   
+    
+      
+    export function aufgabe03(text) {
+      let count = 0;
+    
+      for (let i = 0; i < text.length; i++) {
+        const currentElement = text[i];
+        if (currentElement.toLowerCase() === 'e') {
+          count++;
+        }
+      }
+    
+      return count;
+    }
+
+    export function aufgabe04()
+      
+    
+    
