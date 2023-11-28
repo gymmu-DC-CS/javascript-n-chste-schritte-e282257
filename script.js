@@ -33,7 +33,14 @@ export function aufgabe01(args) {
       return count;
     }
 
-    export function aufgabe04()
-      
+    
+
+    
+    
+    export function aufgabe04(args) {
+      const cleanText = args.replace(/[^\w\s]/gi, '');
+      const words = cleanText.split(/\s+/); 
+      return words.length;
+    
     
     
