@@ -84,3 +84,17 @@ export function aufgabe08(inputString) {
 export function aufgabe09(inputString) {
   return inputString.length === 6;
 }
+
+export function aufgabe10(hexCode) {
+  
+  if (hexCode.startsWith('#')) {
+    
+    const cleanHex = hexCode.slice(1);
+
+    
+    if  cleanHex.length === 6) {
+      }
+      }
+      }
+      
+    
