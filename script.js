@@ -80,3 +80,7 @@ export function aufgabe08(inputString) {
 
   return replacedString;
 }
+
+export function aufgabe09(inputString) {
+  return inputString.length === 6;
+}
