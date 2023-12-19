@@ -87,14 +87,17 @@ export function aufgabe09(inputString) {
 
 export function aufgabe10(hexCode) {
   
-  if (hexCode.startsWith('#')) {
-    
-    const cleanHex = hexCode.slice(1);
-
-    
-    if  cleanHex.length === 6) {
+  if (hexCode[0] === '#' && (hexCode.length === 4 || hexCode.length === 7)) {
+   
+    for (let i = 1; i < hexCode.length; i++) {
+      const char = hexCode[i].toLowerCase();
+      const isHexChar = /[0-9a-f]/.test(char);
+      if (!isHexChar) {
+        return false; 
       }
-      }
-      }
-      
+    }
+    return true; 
+  }
+  return false;
+}
     
