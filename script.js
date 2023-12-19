@@ -100,4 +100,16 @@ export function aufgabe10(hexCode) {
   }
   return false;
 }
+
+export function aufgabe11(inputString) {
+  const asciiCodes = [];
+
+  for (let i = 0; i < inputString.length; i++) {
+    const char = inputString.charAt(i);
+    const ascii = char.charCodeAt(0);
+    asciiCodes.push(ascii);
+  }
+
+  return asciiCodes;
+}
     
